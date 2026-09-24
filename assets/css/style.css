@@ -1,9 +1,174 @@
-aside{
-    width:25%; float: left; background-color: deepskyblue;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
-main{
-    width: 75%; float:right; background-color: green;
+body{
+    background-color: #12160F;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-footer{
-    clear: both;
+#site-header {
+    padding: 32px;
+    border: 3px solid #2C3527;
+    border-radius: 8px;
+    margin-bottom: 3px;
+    font-size: 32px;
 }
+nav{
+    padding: 16px 32px;
+    border: 3.5px solid #2C3527;
+    border-radius: 8px;
+
+    margin-bottom: 3px;
+
+
+}
+
+main {
+    padding: 32px;
+    border: 3.5px solid #2C3527;
+    border-radius: 8px;
+
+    overflow: auto;
+    margin-bottom: 3px;
+
+
+}
+
+.content-column {
+    padding: 24px;
+    border: 3.5px solid #2C3527;
+    border-radius: 8px;
+
+    width: 74.6%;
+    float: left;
+    margin-left: 3px;
+
+
+}
+
+.sidebar {
+    width: 25%;
+    padding: 24px;
+    border: 3.5px solid #2C3527;
+    border-radius: 8px;
+    margin-left: 3px;
+    font-size: 15px;
+    float: left;
+
+}
+
+#site-footer {
+
+    padding: 24px 32px;
+    border: 3.5px solid #2C3527;
+    border-radius: 8px;
+    font-size: 14px;
+
+
+}
+
+a, a:visited {
+    color: #EAEEE6;
+}
+
+nav li{
+    display: inline-block;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+
+}
+nav a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #EAEEE6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+th, td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    font-weight: bold;
+}
+
+li{
+    display: inline-block;
+
+}
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+li a{
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+    color: #EAEEE6;
+
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3 {
+    color: #EAEEE6;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 19px;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+body{
+
+    color: #AEB8A8;
+    font-family: Verdana, sans-serif;
+
+}
+.malware-img {
+    display: block;
+    width: 35%;
+    height: auto;
+    margin: 20px auto;
+    border: 3.5px solid #2C3527;
+    border-radius: 8px;
+    float: left;
+    margin-right: 15px;
+}
+
